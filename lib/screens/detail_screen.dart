@@ -41,7 +41,7 @@ class DetailScreen extends StatelessWidget {
                   const SizedBox(width: 10),
                   const Text('Release Date: ', style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold),
                   ),
-                  const SizedBox(width: 10 ),
+                  // const SizedBox(width: 10 ),
                   Text(movie.releaseDate),
                 ],
               ),

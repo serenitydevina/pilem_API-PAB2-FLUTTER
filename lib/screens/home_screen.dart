@@ -58,7 +58,10 @@ class _HomeScreenState extends State<HomeScreen> {
     return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(padding: EdgeInsets.all(8.0), child: Text(title),),
+          Padding(padding: EdgeInsets.all(8.0), 
+          child: Text(title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
+          ),
           SizedBox(
             height: 200,
             child:  ListView.builder(
